@@ -1,0 +1,239 @@
+
+Linker Version 8.7.7.190806
+Input Object File: c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ
+Input Object File: c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\STARTUP1_L.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0001h    0002h      CODE               @code (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0002h     0004h    0003h      CODE               _CROM2PROM (CROM2PROM)
+     00h     0005h     0012h    000eh      CODE               _builtin_holtek_delay_isr14 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0014h     0017h    0004h      CODE               @ISR_TM0_code (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0018h     001ah    0003h      CODE               @start (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     001ch     001fh    0004h      CODE               @ISR_ADC_code (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0020h     004ch    002dh      CODE               _ISR_ADC (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     004dh     0116h    00cah      CODE               _ISR_TM0 (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0123h     0160h    003eh      CODE               _crc_cal (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0161h     01c4h    0064h      CODE               _main (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     01c5h     01f9h    0035h      CODE               _TRANSMIT (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0080h     0080h    0001h      DATA     7         @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0081h     0081h    0001h      DATA     7         @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0082h     0082h    0001h      DATA     6         @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     5         @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0084h     0084h    0001h      DATA     4         @data_rf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0085h     0085h    0001h      DATA     4         @data_rg (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0001h      DATA     2         @data_r11c (isr:ra~rh)
+     00h     0087h     0087h    0001h      DATA     2         @data_r21c (isr:ra~rh)
+     00h     0088h     0088h    0001h      DATA     5         @data_rc1c (isr:ra~rh)
+     00h     0089h     0089h    0001h      DATA     5         @data_rb1c (isr:ra~rh)
+     00h     008ah     008ah    0001h      DATA     6         @data_rd1c (isr:ra~rh)
+     00h     008bh     008bh    0001h      DATA     7         @data_re1c (isr:ra~rh)
+     00h     008ch     008ch    0001h      DATA     2         @data_ra14 (isr:ra~rh)
+     00h     008dh     008dh    0001h      DATA     2         @data_r114 (isr:ra~rh)
+     00h     008eh     008eh    0001h      DATA     2         @data_r214 (isr:ra~rh)
+     00h     008fh     008fh    0001h      DATA     13        @data_rb14 (isr:ra~rh)
+     00h     0090h     0090h    0001h      DATA     13        @data_rc14 (isr:ra~rh)
+     00h     0092h     0092h    0001h      DATA     20        @HCCINIT0_BaudRate_Const (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0093h     0094h    0002h      DATA     11        @HCCINIT0_Illuminance_Class (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0095h     0095h    0001h      DATA     7         @HCCINIT0_BaudRate (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0096h     0096h    0001h      DATA     6         @HCCINIT0_UartBitCount (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0097h     0097h    0001h      DATA     4         @HCCINIT0_ZigbeeREG_Const (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0098h     0099h    0002h      DATA     4         @HCCINIT0_i (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     009ah     009bh    0002h      DATA     4         @HCCINIT0_CTM_Count1 (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     009ch     009ch    0001h      DATA     3         @HCCINIT0_crc (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     009dh     009dh    0001h      DATA     2         @HCCINIT0_RCREG (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     009eh     009eh    0001h      DATA     2         @HCCINIT0_TXREG (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     009fh     00a0h    0002h      DATA     2         @HCCINIT0_ADR (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     00a1h     00d2h    0032h      DATA     1.16      @HCCINIT0_TransmitData (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     00d3h     00d4h    0002h      DATA     1         @HCCINIT0_ADC_Ch4_LByte (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     00d5h     00d6h    0002h      DATA     1         @HCCINIT0_ADC_Ch4_HByte (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     00d7h     00edh    0017h      DATA     0         @HCCINIT0_ReceiveData (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     00eeh     00eeh    0001h      DATA     2         @data_r31c (isr:ra~rh)
+     00h     00efh     00efh    0001h      DATA     2         @data_r314 (isr:ra~rh)
+     00h     00f0h     00f0h    0001h      DATA     2         @data_r414 (isr:ra~rh)
+     00h     00f1h     00f1h    0001h      DATA     2         @data_r514 (isr:ra~rh)
+     00h     00f2h     00f2h    0001h      DATA     2         @data_r614 (isr:ra~rh)
+     00h     00f3h     00f3h    0001h      DATA     2         @data_r714 (isr:ra~rh)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0092h     0092h    0000h      LOCAL    0         @dummy28 (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _ISR_ADC (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         @dummy (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _main (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _crc_cal (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     0092h     0092h    0000h      LOCAL    0         @dummy20 (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _ISR_TM0 (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+     00h     0091h     0091h    0001h      LOCAL    4         _builtin_holtek_delay_isr14 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0092h     0092h    0000h      LOCAL    0         _TRANSMIT (c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     00d5h              _ADC_Ch4_HByte
+     00d3h              _ADC_Ch4_LByte
+     009fh              _ADR
+     0095h              _BaudRate
+     0092h              _BaudRate_Const
+     009ah              _CTM_Count1
+     0003h              _Crom2Prom
+     0002h              _Crom2PromNext
+     0020h              _ISR_ADC
+     004dh              _ISR_TM0
+     0093h              _Illuminance_Class
+     009dh              _RCREG
+     00d7h              _ReceiveData
+     01c5h              _TRANSMIT
+     009eh              _TXREG
+     00a1h              _TransmitData
+     0096h              _UartBitCount
+     0097h              _ZigbeeREG_Const
+     000ah              __DELAYY0_isr14
+     0009h              __DELAYY1_isr14
+     0008h              __DELAYY2_isr14
+     0007h              __DELAYY3_isr14
+     0006h              __DELAYY4_isr14
+     0005h              __DELAYY5_isr14
+     0091h              _builtin_holtek_delay_isr14_2
+     009ch              _crc
+     0123h              _crc_cal
+     0098h              _i
+     0161h              _main
+     008dh              r114
+     0086h              r11c
+     008eh              r214
+     0087h              r21c
+     00efh              r314
+     00eeh              r31c
+     00f0h              r414
+     00f1h              r514
+     00f2h              r614
+     00f3h              r714
+     008ch              ra14
+     0080h              rb
+     008fh              rb14
+     0089h              rb1c
+     0081h              rc
+     0090h              rc14
+     0088h              rc1c
+     0082h              rd
+     008ah              rd1c
+     0083h              re
+     008bh              re1c
+     0084h              rf
+     0085h              rg
+
+     Address            Public by Value
+     0002h              _Crom2PromNext
+     0003h              _Crom2Prom
+     0005h              __DELAYY5_isr14
+     0006h              __DELAYY4_isr14
+     0007h              __DELAYY3_isr14
+     0008h              __DELAYY2_isr14
+     0009h              __DELAYY1_isr14
+     000ah              __DELAYY0_isr14
+     0020h              _ISR_ADC
+     004dh              _ISR_TM0
+     0080h              rb
+     0081h              rc
+     0082h              rd
+     0083h              re
+     0084h              rf
+     0085h              rg
+     0086h              r11c
+     0087h              r21c
+     0088h              rc1c
+     0089h              rb1c
+     008ah              rd1c
+     008bh              re1c
+     008ch              ra14
+     008dh              r114
+     008eh              r214
+     008fh              rb14
+     0090h              rc14
+     0091h              _builtin_holtek_delay_isr14_2
+     0092h              _BaudRate_Const
+     0093h              _Illuminance_Class
+     0095h              _BaudRate
+     0096h              _UartBitCount
+     0097h              _ZigbeeREG_Const
+     0098h              _i
+     009ah              _CTM_Count1
+     009ch              _crc
+     009dh              _RCREG
+     009eh              _TXREG
+     009fh              _ADR
+     00a1h              _TransmitData
+     00d3h              _ADC_Ch4_LByte
+     00d5h              _ADC_Ch4_HByte
+     00d7h              _ReceiveData
+     00eeh              r31c
+     00efh              r314
+     00f0h              r414
+     00f1h              r514
+     00f2h              r614
+     00f3h              r714
+     0123h              _crc_cal
+     0161h              _main
+     01c5h              _TRANSMIT
+
+Warning(L3009) : Same sub function exists between ISR(14H) CMG and MAIN CMG: _crc_cal
+
+ROM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       2000h     01ech    6%
+     01h       2000h     0000h    0%
+     02h       2000h     0000h    0%
+     03h       2000h     0000h    0%
+     Total     8000h     01ech    1%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0074h    90%
+     01h       0080h     0000h    0%
+     02h       0080h     0000h    0%
+     03h       0080h     0000h    0%
+     04h       0080h     0000h    0%
+     05h       0080h     0000h    0%
+     06h       0080h     0000h    0%
+     07h       0080h     0000h    0%
+     08h       0080h     0000h    0%
+     09h       0080h     0000h    0%
+     0ah       0080h     0000h    0%
+     0bh       0080h     0000h    0%
+     0ch       0080h     0000h    0%
+     0dh       0080h     0000h    0%
+     0eh       0080h     0000h    0%
+     0fh       0080h     0000h    0%
+     Total     0800h     0074h    5%
+
+Use Stack Count
+_ISR_ADC: 0
+_main: 2
+_ISR_TM0: 2
+
+Call Tree
+    @dummy28
+        _ISR_ADC (0)
+    @dummy
+        _main (0)
+            _crc_cal (1)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+    @dummy20
+        _ISR_TM0 (0)
+            _builtin_holtek_delay_isr14 (1)
+            _crc_cal (1)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+            _Crom2Prom (1)
+            _TRANSMIT (1)
+                _builtin_holtek_delay_isr14 (2)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'c:\users\bill\desktop\軒哥論文相關\source code\20210129\device\ht66f70a\illuminance\ILLUMINANCE.OBJ'
+
+Total 0 error(s), Total 1 Warning(s)
